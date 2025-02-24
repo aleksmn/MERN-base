@@ -44,6 +44,8 @@ code server.js
 
 Создадим простой сервер с подключением к `MongoDB`.
 ```js
+const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
@@ -96,9 +98,14 @@ cd frontend
 npm install
 ```
 
-Запускаем сервер разработки для проекта `frontend`, чтобы можно было тестировать приложение в режиме разработки.
+Удаляем ненужный файл `App.css`.
 ```bash
-npm run dev
+rm src\App.css
+```
+
+Очищаем файл `index.css`
+```bash
+"" > src\index.css
 ```
 
 Открываем файл `.env` в редакторе кода для редактирования переменных окружения.
@@ -142,6 +149,11 @@ function App() {
 
 export default App;
 
+```
+
+Запускаем сервер разработки для проекта `frontend`, чтобы можно было тестировать приложение в режиме разработки.
+```bash
+npm run dev
 ```
 
 Снова возвращаемся на один уровень вверх в файловой системе, чтобы перейти к родительской директории.
