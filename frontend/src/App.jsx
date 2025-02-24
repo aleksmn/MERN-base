@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 
 const apiUrl = import.meta.env.VITE_API_URL;
@@ -6,7 +5,7 @@ const apiUrl = import.meta.env.VITE_API_URL;
 function App() {
   const [message, setMessage] = useState("");
 
-  // Fetching message from backend on mount
+  // Получим сообщение с сервера
   useEffect(() => {
     fetch(apiUrl)
       .then((res) => res.json())
