@@ -14,7 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{message}</h1>
+      <h1>Welcome to MERN base app</h1>
+      <h2>{message}</h2>
+      <img src="/images/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" alt="" />
     </div>
   );
 }
