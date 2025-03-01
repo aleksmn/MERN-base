@@ -30,9 +30,9 @@
 } */
 
 body {
-  background-color: rgb(10, 122, 122); /* Change to your desired color */
-  height: 100vh; /* Ensures the body takes the full height of the viewport */
-  margin-top: 0; /* Removes default margin */
+  background-color: rgb(10, 122, 122);
+  height: auto;
+  margin-top: 0;
 }
 
 
