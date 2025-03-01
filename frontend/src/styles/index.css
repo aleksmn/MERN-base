@@ -29,13 +29,12 @@
   background-color: var(--background);
 } */
 
-body {
+html, body {
   background-color: rgb(10, 122, 122);
   height: auto;
   margin-top: 0;
+  padding: 8px;
 }
-
-
 
 img {
   border-radius: 4px;
