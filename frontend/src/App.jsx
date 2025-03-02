@@ -14,17 +14,15 @@ function App() {
 
   return (
     <div className="App">
-      <nav>
-      <h1>Welcome to MERN base app</h1>
-
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-      </nav>
-
+      <header>
+        <h1>Welcome to MERN base app</h1>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </header>
       <h2>{message}</h2>
       <img src="/images/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" alt="" />
 
