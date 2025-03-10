@@ -103,9 +103,9 @@ npm install
 rm src\App.css
 ```
 
-Очищаем файл `index.css`
+Открываем и очищаем файл `index.css`
 ```bash
-"" > src\index.css
+code src\index.css
 ```
 
 Открываем файл `.env` в редакторе кода для редактирования переменных окружения.
