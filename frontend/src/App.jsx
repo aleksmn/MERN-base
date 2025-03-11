@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className="header">
         <h1>Welcome to MERN base app</h1>
         <nav>
           <a href="/">Home</a>
